@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body {
+    margin: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+li{
+    list-style: none;
+    padding: 40px;
+}
+
+.logo {
+    padding-top: 70px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+
+.mainbox div{
+    padding: 10px;
+}
+
+.mainbox a{
+    font-family: 'Playfair Display', serif;
+}
+
+.mainbox li:hover{
+    background-color: rgba(71, 68, 68, 0.686);
+    text-decoration: underline;
+}
+
+.footerbox{
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+
+footer div{ 
+    font-size: 10px;
+    padding: 5px;
+}
+
+footer p{
+    padding: 10px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+
+.howtouse{
+    text-align: left;
+}
+
+.title{
+    font-size: larger;
+    font-weight: 900;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.subtitle{
+    font-size: large;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.content{
+    font-size: small;
+}
+
+.box{
+    padding: 15px;
+    padding-left: 0;
+}
+
+.order{
+    display: flex;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.orderbox{    
+    border: none;
+    font-weight: 400;
+    font-size: larger;
+    padding: 10px;
+    display: inline-block;
+}
+
+.orderbox img{
+    width: 100%;
+    height: auto;
+}
+
+.order a:hover{
+    box-shadow: 1px 1px 50px #5855559f;
+}
+
+.orderoption{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid white;
+    padding-top: 50px;
+}
+
+.optionbox{
+    text-align: left;
+    padding: 20px;
+}
+
+.option p{
+    font-size: small;
+    color: darkgray;
+}
+
+select{
+    appearance: none;
+    background-color: dimgrey;
+    color: white;
+    font-size: medium;
+    padding: 15px;
+    width: 100%;
+}
+
+.addFile{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.option{
+    margin-top: 50px;
+}
+
+.optionbox button{
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px 10px;
+}
+
+.orderInfo p{
+    font-size: 35px;
+    margin : 0;
+    font-weight: lighter;
+}
+
+.infoBox p{
+    font-size: 18px;
+}
+
+.infoBox{
+    border: 1px solid white;
+    border-radius: 10px 10px;
+    margin: 120px;
+    padding: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 100;
+    justify-content: center;
+}
+
+
+.whiteBox{
+    background-color: white;
+    color: black;
+    width: 35%;
+    justify-content: center;
+    margin: auto;
+    font-weight: 600;
+}
+
+.refundBox{
+    border: 1px solid gainsboro;
+    border-radius: 40px 40px;
+    padding: 20px;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.refundBox p{
+    font-size: 18px;
+    padding: 2px;
+}
